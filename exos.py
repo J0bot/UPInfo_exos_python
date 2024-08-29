@@ -10,6 +10,8 @@ import exo12
 import exo13
 import exo16
 import exo17
+import exo18
+import exo19
 
 # print la liste d'exos
 
@@ -22,8 +24,8 @@ def show_exercices():
     print("2. Exo 13 : calcul du volume d'un cône")
     print("3. Exo 16 : contrôle du flux d'instructions")
     print("4. Exo 17 : table de multiplication, avec boucle for")
-    # print("5. Exo 18 : boucle for et fonctions")
-    # print("6. Exo 19 : devinette")
+    print("5. Exo 18 : boucle for et fonctions")
+    print("6. Exo 19 : devinette")
     print("0. Quitter\n")
 
 
@@ -55,6 +57,10 @@ def main():
             exo16.main()
         elif choix_exo == 4:
             exo17.main()
+        elif choix_exo == 5:
+            exo18.main()
+        elif choix_exo == 6:
+            exo19.main()
         elif choix_exo == 0:
             # Quitter le programme
             print("Au revoir...")

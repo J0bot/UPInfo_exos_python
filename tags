@@ -5,5 +5,6 @@ choice1	/home/j0bot/HEIG-VD/exo16.py	/^def choice1():$/;"	f	language:Python
 choice2	/home/j0bot/HEIG-VD/exo16.py	/^def choice2():$/;"	f	language:Python
 exo2	/home/j0bot/HEIG-VD/exo17.py	/^def exo2():$/;"	f	language:Python
 exo3	/home/j0bot/HEIG-VD/exo17.py	/^def exo3():$/;"	f	language:Python
+factoriel	/home/j0bot/HEIG-VD/exo18.py	/^def factoriel():$/;"	f	language:Python
 menu	/home/j0bot/HEIG-VD/exo16.py	/^def menu():$/;"	f	language:Python
-surface_volume_sphere	/home/j0bot/HEIG-VD/surface_volume_sphere.py	/^def surface_volume_sphere(rayon):$/;"	f	language:Python
+numbers_in_the_middle	/home/j0bot/HEIG-VD/exo18.py	/^def numbers_in_the_middle(n):$/;"	f	language:Python
