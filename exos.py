@@ -15,6 +15,9 @@ import exo17
 
 
 def show_exercices():
+    """
+    Affiche le menu avec la liste des exercices disponibles.
+    """
     print("\n1. Exo 12 : l'âge à la mort")
     print("2. Exo 13 : calcul du volume d'un cône")
     print("3. Exo 16 : contrôle du flux d'instructions")
@@ -28,11 +31,14 @@ def show_exercices():
 
 
 def main():
+    """
+    Fonction principale qui permet à l'utilisateur de choisir et d'exécuter un exercice.
+    """
     print("Bienvenue sur le script qui gère tous les exercices !")
     while True:
         show_exercices()
         choix_exo = 0
-        # Si l'input est incorrect on refait la demande
+        # Validation de l'entrée utilisateur
         try:
             choix_exo = int(input("Choisissez l'exercice : "))
         except:
@@ -40,7 +46,7 @@ def main():
             continue
         print("\n")
 
-        # série de if et elif pour le choix de l'exo
+        # Appel de la fonction principale de l'exercice choisi
         if choix_exo == 1:
             exo12.main()
         elif choix_exo == 2:
@@ -50,11 +56,13 @@ def main():
         elif choix_exo == 4:
             exo17.main()
         elif choix_exo == 0:
-            # quitter
+            # Quitter le programme
+            print("Au revoir...")
             exit()
         else:
             continue
 
 
-# invocation de la fonction main()
-main()
+# Invocation de la fonction main pour démarrer le programme
+if __name__ == "__main__":
+    main()
