@@ -1,1 +1,6 @@
-Don't even think about this
+# Pour lancer les exercices : 
+
+```sh
+python3 exos.py
+```
+
